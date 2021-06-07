@@ -1,0 +1,28 @@
+.coment {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.coment p {
+    font: var(--oxygen);
+    font-weight: 300;
+}
+
+.coment span {
+    font: var(--headline5);
+}
+
+.coment img {
+    inline-size: 80px;
+    block-size: 80px;
+    color: var(--purple);
+    margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .coment {
+        padding: 200px 233px 200px 233px;
+    }
+}
